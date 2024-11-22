@@ -1,5 +1,5 @@
 import React from 'react';
-import Producto from './Producto'; // Ensure correct export
+import Producto from './Producto'; 
 import Productos from './data/Productos';
 import { Link } from 'react-router-dom';
 
