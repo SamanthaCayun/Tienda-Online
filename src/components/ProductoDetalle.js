@@ -5,7 +5,7 @@ import Productos from './data/Productos';
 
 function ProductoDetalle() {
   const { slug } = useParams();
-  // Aquí buscarías el producto con el slug correspondiente en tu array de productos
+
   const producto = Productos.find(p => p.slug === slug);
 
   return (
